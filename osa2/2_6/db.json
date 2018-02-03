@@ -1,0 +1,29 @@
+{
+  "persons": [
+    {
+      "name": "Matti Mattila",
+      "number": "1234-5678",
+      "id": 1
+    },
+    {
+      "name": "Olli Ollila",
+      "number": "4431-55642",
+      "id": 2
+    },
+    {
+      "name": "Simo Simonen",
+      "number": "352899235",
+      "id": 3
+    },
+    {
+      "name": "Paavo Paavola",
+      "number": "34583222",
+      "id": 5
+    },
+    {
+      "name": "Mikko Mikkola",
+      "number": "549-4235",
+      "id": 6
+    }
+  ]
+}
