@@ -10,14 +10,16 @@ const userSchema = new mongoose.Schema({
 
 userSchema.statics.format = (user) => {
   return {
-    id: user.id,
+    _id: user._id,
     username: user.username,
     name: user.name,
-    adult: user.adult,
-    blogs: user.blogs
+    blogs: user.blogs,
+    adult: user.adult
   }
 }
 
+// koska käytän samaa kantaa kuin eräässä toisessa sovelluksessa
+// jossa myös Users-kokoelma, talletan tämän sovelluksen 
+// käyttäjät kokoelmaan BlogUsers
 const User = mongoose.model('User', userSchema)
-
 module.exports = User
